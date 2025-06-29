@@ -1,0 +1,8 @@
+! Jan 1, 2025 https://m.youtube.com
+m.youtube.com##.modern-styling
+m.youtube.com##.clickable-metadata
+m.youtube.com##.slim-video-metadata-information-inline-badge
+m.youtube.com##.slim-video-action-bar-actions
+m.youtube.com##ytm-pivot-bar-renderer.frosted-glass > ytm-pivot-bar-item-renderer:nth-child(2)
+m.youtube.com##.ytSearchboxComponentVoiceSearchWrapper
+m.youtube.com##ytm-item-section-renderer.scwnr-content:nth-child(3)
