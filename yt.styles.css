@@ -1,0 +1,22 @@
+/* Hide some of Youtube UI example Shorts button and next video section */
+modern-styling,
+.clickable-metadata,
+.slim-video-metadata-information-inline-badge,
+.slim-video-action-bar-actions,
+ytm-pivot-bar-renderer.frosted-glass > ytm-pivot-bar-item-renderer:nth-child(2),
+.ytSearchboxComponentVoiceSearchWrapper,
+ytm-item-section-renderer.scwnr-content:nth-child(3),
+.scwnr-content.single-column-watch-next-modern-panels,
+.fullscreen-controls.enable-scrubber-for-fine,
+.ytmFullscreenRelatedVideosEntryPointViewModelHost,
+.slim-video-information-show-more,
+.ytSearchboxComponentVoiceSearchWrapper,
+.rich-section-content,
+.statement-banner-content-wrapper {
+  display: none !important;
+}
+
+/* Disable the click event on the video description*/
+.slim-video-metadata-header {
+  pointer-events: none !important;
+}
