@@ -20,3 +20,15 @@ ytm-item-section-renderer.scwnr-content:nth-child(3),
 .slim-video-metadata-header {
   pointer-events: none !important;
 }
+
+/* Fix some UI bugs in the description after applying the styles above   */
+.watch-below-the-player {
+    overflow: hidden !important;
+}
+.modern-panel-with-inline-badge-subtitle .secondary-text {
+  width: 100% !important;
+  overflow: visible !important;
+}
+.related-chips-slot-wrapper {
+  transform: translateY(0) !important;
+}
