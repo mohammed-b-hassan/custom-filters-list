@@ -42,3 +42,29 @@ yt-bigboard + div ,yt-bigboard + div + div, yt-bigboard + div + div + div {
 .related-chips-slot-wrapper {
   transform: translateY(0) !important;
 }
+
+
+/* Make channel list scrollable */
+.YtmChannelListSubMenuRendererAvatars  {
+  overflow-x: scroll;
+  display: flex;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* replace yt logo with arrow   */
+.mobile-topbar-header-endpoint::before {
+  content: '';
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjMDAwMDAwIj48ZyBpZD0iU1ZHUmVwb19iZ0NhcnJpZXIiIHN0cm9rZS13aWR0aD0iMCI+PC9nPjxnIGlkPSJTVkdSZXBvX3RyYWNlckNhcnJpZXIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9nPjxnIGlkPSJTVkdSZXBvX2ljb25DYXJyaWVyIj4gPGRlZnM+IDxzdHlsZT4uY2xzLTF7ZmlsbDpub25lO3N0cm9rZTojZmZmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6MjBweDt9PC9zdHlsZT4gPC9kZWZzPiA8ZyBkYXRhLW5hbWU9IkxheWVyIDIiIGlkPSJMYXllcl8yIj4gPGcgZGF0YS1uYW1lPSJFNDIxLCBCYWNrLCBidXR0b25zLCBtdWx0aW1lZGlhLCBwbGF5LCBzdG9wIiBpZD0iRTQyMV9CYWNrX2J1dHRvbnNfbXVsdGltZWRpYV9wbGF5X3N0b3AiPiA8Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjI1NiIgY3k9IjI1NiIgcj0iMjQ2Ij48L2NpcmNsZT4gPGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMzUyLjI2IiB4Mj0iMTcwLjQzIiB5MT0iMjU2IiB5Mj0iMjU2Ij48L2xpbmU+IDxwb2x5bGluZSBjbGFzcz0iY2xzLTEiIHBvaW50cz0iMjIzLjkxIDIwMi41MiAxNzAuNDQgMjU2IDIyMy45MSAzMDkuNDgiPjwvcG9seWxpbmU+IDwvZz4gPC9nPiA8L2c+PC9zdmc+");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  left: 13px;
+}
+.mobile-topbar-logo.full-logo {
+    display: none;
+  }
