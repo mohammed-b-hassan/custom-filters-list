@@ -46,3 +46,7 @@
   display: flex !important;
   flex-direction: column !important;
 }
+* {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
